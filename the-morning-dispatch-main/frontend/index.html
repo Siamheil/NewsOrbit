@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>The Morning Dispatch — Your Morning, Across Every Newsroom</title>
+    <meta name="description" content="Strictly uncurated multi-bureau news aggregation and telemetry across BBC News, CNN, Reuters, and Fox News." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  </head>
+  <body class="bg-surface font-sans text-on-surface antialiased min-h-screen flex flex-col">
+    <!-- Persistent Editorial Masthead -->
+    <div id="masthead-container"></div>
+
+    <!-- Main Viewport Router Outlet -->
+    <main id="app" class="flex-1 w-full pb-16 md:pb-0" role="main"></main>
+
+    <!-- Broadsheet Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Mobile Bottom Navigation -->
+    <div id="mobile-nav-container"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
